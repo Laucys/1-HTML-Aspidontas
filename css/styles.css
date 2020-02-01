@@ -17,6 +17,10 @@ body {
     scroll-behavior: smooth;
 }
 
+/************************************/
+/*********  COMMON CLASSES  *********/
+/************************************/
+
 
 
 /************************************/
@@ -91,4 +95,56 @@ ul.nav a:hover {
 .btn-primary:hover {
     background-color: #1b2d37;
     border-color: #1b2d37;
+}
+
+/************************************/
+/********  GYDYMO PASLAUGOS  ********/
+/************************************/
+
+.heading h1 {
+    text-transform: uppercase;
+    font-weight: 300;
+    text-align: center;
+}
+
+.line {
+    width: 100px;
+    height: 2px;
+    background-color: #069c75 ;
+}
+
+.services-list h5 {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.services-list p {
+    font-size: 14px;
+}
+
+/************************************/
+/************  APIE MUS  ************/
+/************************************/
+
+.about {
+    background-color: #1b2d37;
+    color: #fff;
+}
+
+.about-text h1 {
+    font-weight: bold;
+}
+
+.about-text p {
+    font-weight: 300;
+}
+
+.text-1 {
+    margin-top: 50px;
+}
+
+.about-img img {
+    border-radius: 4px;
+    width: 100%;
+    
 }
