@@ -126,6 +126,14 @@ ul.nav a:hover {
     font-size: 14px;
 }
 
+.inside-paslaugos {
+    justify-content: space-between;
+}
+
+.p-space {
+    
+}
+
 /************************************/
 /************  APIE MUS  ************/
 /************************************/
