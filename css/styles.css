@@ -42,8 +42,13 @@ nav {
     padding: 10px 0;
 }
 
-.navbar a {
-    color: #1b2d37!important;
+.current {
+    color: #069c75 !important;
+   
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #333;
 }
 
 .nav-logo {
@@ -54,11 +59,19 @@ nav {
 .nav-link {
     font-size: 14px;
     font-weight: 500;
+    transition: all .2s ease-out;
 }
 
-ul.nav a:hover { 
+.nav-item {
+    padding: 0 15px 0 0;
+    
+}
+
+.nav-link:hover { 
     color: #069c75 !important;
 }
+
+
 
 /************************************/
 /*************  SLIDER  *************/
@@ -130,9 +143,7 @@ ul.nav a:hover {
     justify-content: space-between;
 }
 
-.p-space {
-    
-}
+
 
 /************************************/
 /************  APIE MUS  ************/
